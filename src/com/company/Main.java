@@ -46,6 +46,7 @@ public class Main {
 
         }catch (Exception e){
             //Simple error handling
+            System.out.println("You should input path to text file and integer number.");
             System.out.println("Check input data. Somethings goes wrong. Error:"+e);
         }
     }
