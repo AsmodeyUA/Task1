@@ -40,13 +40,13 @@ public class Main {
                     .map(Map.Entry::getKey).limit(N)
                     .collect(Collectors.toList());
 
-            countWords.forEach((k,v)->System.out.println(k + " : " + v));
+            //countWords.forEach((k,v)->System.out.println(k + " : " + v));
             //Printout Sorted result List with n most used words from the file
             sortedStats.forEach(System.out::println);
 
         }catch (Exception e){
             //Simple error handling
-            System.out.println("Check input datas. Somethings goes wrong. Error:"+e);
+            System.out.println("Check input data. Somethings goes wrong. Error:"+e);
         }
     }
 }
